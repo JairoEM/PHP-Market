@@ -24,7 +24,7 @@
         if($value[0] == $usuario){
             if($value[1] == $pass){
                 if($value[2] == $mail){
-                    header('Location: ./php/main.php');
+                    header('Location: ./main.php');
                 }
             }
         }

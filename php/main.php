@@ -22,7 +22,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="./php/carrito.php">Carrito<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="./carrito.php">Carrito<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../index.php">Cerrar Sesion</a>
@@ -33,8 +33,9 @@
 
     <!-- MAIN-->
     <section class="container">
-        <h1 id="welcome">Binevenido a Nuestro Supermercado</h1>
+        <h1 id="welcome">Bienvenido a Nuestro Supermercado</h1>
         <hr>
+        
         <!-- PRODUCTS -->
         <div class="row">
             <div class="col-md-4">
