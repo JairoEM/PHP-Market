@@ -11,10 +11,8 @@
     <title>PHP Market</title>
   </head>
   <body>
-
-    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">PHP Market</a>
+        <a class="navbar-brand" href="">PHP Market</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,43 +20,26 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="./php/carrito.php">Carrito<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="">Carrito<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Cerrar Sesion</a>
+                    <a class="nav-link" href="">Cerrar Sesion</a>
                 </li>
             </ul>
         </div>
     </nav>
-
-    <!-- MAIN-->
+    
     <section class="container">
-        <h1 id="welcome">Inicio de Sesión</h1>
-
-        <!-- CONECTION FORM -->
-        <div class="row">
-            <div class="col-6 offset-3">
-                <form method="POST" action="./php/conexion.php">
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Correo Electrónico</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Correo Electrónico" name="mail">
-                        <small id="usuarioHelp" class="form-text text-muted">Tus datos son seguros y no serán compartidos.</small>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputUsuario1">Usuario</label>
-                        <input type="usuario" class="form-control" id="exampleInputUsuario1" aria-describedby="usuarioHelp" placeholder="Usuario" name="user">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Contraseña</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña" name="pass">
-                    </div>
-                    <button type="submit" class="btn btn-primary">Entrar</button>
-                </form>
-            </div>     
+        <div class="align-items-center">
+            <h1 class="text-center">DATOS ERRONEOS</h1>
+            <h2 class="text-center">Introduzca de nuevo los datos</h2>
         </div>
     </section>
 
     <!-- SCRIPTS -->
+    <?php
+        header("refresh:2; url=../index.php");
+    ?>
 
     <!-- BOOTSTRAP SCRIPS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
