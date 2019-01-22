@@ -56,7 +56,7 @@
                     $conexion = new Conexion();
         
                     try {
-                        $sql = "SELECT * FROM pedidos";
+                        $sql = "SELECT * FROM pedidos GROUP BY pedido_des";
                         $res = $conexion->query($sql);
                     } catch (PDOException $e) {
                         echo 'Error de consulta' . $e->getMessage();
@@ -83,7 +83,7 @@
                                 <td>$articulo</td>
                                 <td>$value[2]</td>
                                 <td>
-                                    <input class='form-control' type='number' value='1' min='0' id='$count' style='width: 70px;'>
+                                    <input class='form-control' type='number' value='1' min='0' max='$value[3]' id='$count' style='width: 70px;'>
                                 </td>
                             </tr>
                         ";

@@ -40,3 +40,8 @@ ALTER TABLE detalle_pedido
 	ADD CONSTRAINT detalle_articulo_fk
 		FOREIGN KEY (articulo_id) REFERENCES articulos (articulo_id)
 		ON UPDATE CASCADE;
+
+INSERT INTO usuarios VALUES ('Jairo', '123asd', 'jairete@mail.com');
+INSERT INTO articulos VALUES (null, '1', 100, 10);
+INSERT INTO articulos VALUES (null, '2', 100, 5);
+INSERT INTO articulos VALUES (null, '3', 100, 1);
