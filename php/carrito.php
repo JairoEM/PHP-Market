@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="./styles/style.css">
 
     <title>PHP Market</title>
-  </head>
-  <body>
+</head>
+<body>
 
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -94,6 +94,16 @@
             </tbody>
         </table>
     </section>
+
+    <br>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-2 offset-10">
+                <a href="./gracias.php" role="button" aria-pressed="true" class="btn btn-dark btn-block">Comprar</a>
+            </div>
+        </div>
+    </div>
 
     <!-- SCRIPTS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
